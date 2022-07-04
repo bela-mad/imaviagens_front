@@ -1,0 +1,141 @@
+.container{
+    background-color: #f2f2f2; 
+    width: 80%;
+    margin-left: 10%;
+    /* background-image: url(../img/japao.jpg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-image: linear-gradient(rgb(180, 32, 44), purple, rgb(103, 74, 207)); */
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Cabeçalho da página */
+
+.header {
+    background-color: rgb(233, 5, 55);
+}
+
+/* menu inicio da página */
+.nav-bar li {
+    float: left;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding-left: 35%;
+    background-color: rgb(236, 181, 198);
+    font-family: "Ubuntu", sans-serif;
+}
+
+.nav-bar li a {
+    color: rgb(77, 55, 55);
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+}
+
+.nav-bar li a:hover {
+    background-color: rgb(233, 5, 55);
+    color: white;
+}
+
+/* banner */
+.banner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+
+.hoteis {
+    margin-top: 25px;
+    padding: 5px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.hoteis header {
+    text-align: center;
+    color: #000;
+    font-size: 35pt;
+} 
+
+.hoteis article {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hoteis p {
+    padding: 5px;
+    text-align: justify;
+    color: #000;
+    font-size: 20px;
+}
+
+/* cards */
+
+.column {
+    float: left;
+    width: 29%;
+    padding: 15px;
+    height: 250px;
+    margin: 2% 0 2% 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-card {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 290px;
+}
+
+.banner-card {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    text-align: center;
+    background-color: dimgray;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.banner-card a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 20px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* reserva */
+
+
+
+
+
+.footer {
+    background-color: #dacece;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer li i {
+    color: rgb(83, 47, 47);
+}

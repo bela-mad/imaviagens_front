@@ -17,12 +17,13 @@
 /* Cabeçalho da página */
 
 .header {
-    background-color: rgb(233, 5, 55);
+    background-color: rgb(211, 5, 15);
 }
 
 /* menu inicio da página */
 .nav-bar li {
     float: left;
+    color: white;
     text-align: center;
     letter-spacing: 1px;
 }
@@ -31,19 +32,19 @@
     list-style-type: none;
     overflow: hidden;
     padding-left: 35%;
-    background-color: rgb(236, 181, 198);
+    background-color: rgb(243, 86, 86);
     font-family: "Ubuntu", sans-serif;
 }
 
 .nav-bar li a {
-    color: rgb(77, 55, 55);
+    color: rgb(236, 230, 230);
     text-decoration: none;
     padding: 14px 16px;
     display: block;
 }
 
 .nav-bar li a:hover {
-    background-color: rgb(233, 5, 55);
+    background-color: rgb(211, 5, 15);
     color: white;
 }
 
@@ -65,6 +66,7 @@
     text-align: center;
     color: #000;
     font-size: 35pt;
+    margin-bottom: 2%;
 } 
 
 .hoteis article {
@@ -100,7 +102,7 @@
 }
 
 .banner-card {
-    width: 350px;
+    width: 310px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
@@ -117,7 +119,7 @@
     font-size: 20px;
 }
 
-.row::after {
+.row:after {
     content: "";
     display: table;
     clear: both;
@@ -125,17 +127,72 @@
 
 /* reserva */
 
-
-
-
-
-.footer {
-    background-color: #dacece;
-    color: #000;
-    text-align: center;
-    padding: 10px;
+.reserva {
+    background-image: linear-gradient(to bottom right,#9e0c3c, #b01135, #cd1b2d, #e82322, #fb291b);
+    height: 250px;
 }
 
-.footer li i {
-    color: rgb(83, 47, 47);
+.reserva h3 {
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 23pt;
+    color: white;
+    padding: 35px 0;
+}
+
+.reserva button {
+    background-color: red;
+    padding: 20px 26px;
+    color: white;
+    font-size: 20pt;
+    border-color: red;
+    border-radius: 8px 0;
+    margin-bottom: 20px;
+    margin-left: 45%;
+}
+
+.reserva button a {
+    text-decoration: none;
+    color: white;
+}
+
+.reserva button a:hover {
+    background-color: white;
+    color: red;
+}
+
+/* rodapé da página */
+
+.footer {
+    background-color: rgb(112, 97, 97);
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.footer li {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.footer ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.footer li a i {
+    color: white;
+    text-decoration: none;
+    padding: 24px 20px;
+    margin-bottom: 5pt;
+}
+
+.footer li a:hover {
+    color: rgb(180, 29, 29);
+}
+
+.creditos {
+    font-family: "Ubuntu", sans-serif;
 }

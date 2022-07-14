@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="font/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Verdana">
 
+    <script src="js/funcionalidades.js"></script>
+
     <title>Hospedagem</title>
 </head>
 
@@ -78,11 +80,11 @@
 
         <section class="reserva">
             <h3> Encontre sua próxima estadia</h3>
-            <button type="button"><a href="reserva.html">Reserve Já</a></button>
+            <button type="button" onclick="abrirJanela()">Reserve Já</button>
         </section>
 
         <footer class="footer">
-            <img class="logo" src="img/IMA-Viagens(logo).png" alt="IMA Viagens" />
+            <img class="logo" src="img/IMA-Viagens_logo_-removebg-preview.png" alt="IMA Viagens" />
             <ul>
                 <li>
                     <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
@@ -102,5 +104,11 @@
     </div>
 
 </body>
+
+<script>
+    function abrirNovaJanela() {
+        window.location.href = "reserva.html";
+    }
+</script>
 
 </html>
